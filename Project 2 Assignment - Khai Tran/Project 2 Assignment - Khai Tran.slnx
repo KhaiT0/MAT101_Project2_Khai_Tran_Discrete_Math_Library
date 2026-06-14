@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Khai Tran - Discrete Math Library/Khai Tran - Discrete Math Library.vcxproj" />
+</Solution>
