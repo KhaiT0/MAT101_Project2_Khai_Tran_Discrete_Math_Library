@@ -139,35 +139,37 @@ unsigned long long Permutation(const unsigned int _kuin, const unsigned int _kui
 // Number of elements in the set
 int Cardinality(TSet& _rSet);
 
-// 
+// The number of all possible subsets
 unsigned long long Power(TSet& _rSet);
 
-//
+// Returns the total number of unique ordered pairs
 unsigned long long CartesianProduct(TSet& _rA, TSet& _rB);
 
-//
+// All bools returns True : False (For context)
+
+// Checks if both TSets have the same elements
 bool Equals(TSet& _rA, TSet& _rB);
 
-//
+// Checks if _rA is a subset of _rB 
 bool Subset(TSet& _rA, TSet& _rB);
 
-//
+// Checks if _rA is a Superset of _rB
 bool Superset(TSet& _rA, TSet& _rB);
 
-//
+// Checks if two sets are mutually exclusive (i.e they share no common elements)
 bool Disjoint(TSet& _rA, TSet& _rB);
 
-//
+// Combines the elements from _rA & rB and gives a thrid result
 TSet& Union(TSet& _rA, TSet& _rB, TSet& _rResultant);
 
-//
+// Finds the intersection of the two TSets
 TSet& Intersection(TSet& _rA, TSet& _rB, TSet& _rResultant);
 
-//
+// I think this one gives the result of only elemets in TSet _rA & not _rB (not sure)
 TSet& SetDifference(TSet& _rA, TSet& _rB, TSet& _rResultant);
 
-//
+// returns all elements that exist in both sets
 TSet& SymmetricDifference(TSet& _rA, TSet& _rB, TSet& _rResultant);
 
-//
+// Calculates the relative complement
 TSet& Compliment(TSet& _rA, TSet& _rResultant);
