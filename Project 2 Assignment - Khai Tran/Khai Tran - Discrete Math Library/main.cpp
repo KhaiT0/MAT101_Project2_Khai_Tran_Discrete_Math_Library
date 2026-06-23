@@ -10,6 +10,9 @@ int main()
 {
 	TestEquals();
 
+	int i;
+	std::cin >> i;
+
 	return 0;
 }
 
